@@ -10,10 +10,10 @@
 #include <dt-bindings/zmk/rgb.h>
 
 // Layer Definitions
-// #define DEFAULT 0
-// #define LWR 1
-// #define RSE 2
-// #define STS 3
+ #define DEFAULT 0
+ #define LWR 1
+ #define RSE 2
+ #define STS 3
 
 / {
         conditional_layers {

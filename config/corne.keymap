@@ -23,9 +23,9 @@
                         then-layer = <3>;
                 };
         };
-};
+// };
 
-/ {
+// / {
         keymap {
                 compatible = "zmk,keymap";
 

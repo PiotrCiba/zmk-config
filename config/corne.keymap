@@ -14,7 +14,6 @@
                 tri_layer {
                         if-layers = <1 2>;
                         then-layer = <3>;
-                        >;
                 };
         };
 };
@@ -75,5 +74,6 @@
    &kp LCTRL &bt BT_CLR_ALL  &bt BT_CLR      &trans          &bt BT_NXT        &bt BT_NXT        &trans &trans &trans &trans &trans &trans
    &kp LSHFT &bt BT_DISC 0   &bt BT_DISC 1   &bt BT_DISC 2   &bt BT_DISC 3     &bt BT_DISC 4     &trans &trans &trans &trans &trans &trans
                                                              &kp LGUI &trans   &kp SPACE         &kp RET   &trans    &kp RALT
+                                  >;
         };
 };

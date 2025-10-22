@@ -57,17 +57,17 @@
                 };
 
                 raise_layer {
-                            // -----------------------------------------------------------------------------------------
-                            // |      |   F1   |   F2   |   F3  |   F4    |   F5    |               |  F6  |  F7   |  F8  |  F9   |  F10  |  F11  |
-                            // |      |  INS   |  PSCR  |  GUI  |         |         |               | PGUP |  HOM  |   ↑  |  END  |       |  F12  |
-                            // | UNDO |  REDO  |  CUT   |  COPY |  PASTE  |         |               | PGDN |   ←   |   ↓  |   →   |  DEL  | BCSP  |
-                            //                                  |         |         |       |       | RSE | CTRL | |
+                            // ---------------------------------------------------------------------------------------------------------------------------
+                            // |      |   F1   |   F2   |   F3  |   F4    |   F5    |                   |  PGUP  |  HOM  |   ↑   |  END  |       |       |
+                            // |      |   F6   |   F7   |  F8   |   F9    |   F10   |                   |  PGDN  |   ←   |   ↓   |   →   |  DEL  | BCSP  |
+                            // |      |  INS   |  PSCR  |  GUI  |   F11   |   F12   |                   |   CUT  |  COPY | PASTE |  UNDO |  REDO |       |               
+                            //                                  |         |         |       |   |       |   RSE  |  CTRL |
                             //
                         bindings = <
-                            &trans     &kp F1     &kp F2    &kp F3     &kp F4      &kp F5                           &kp F6    &kp F7   &kp F8   &kp F9    &kp F10 &kp F11
-                            &trans     &kp INS    &kp PSCRN &kp C_MENU &trans      &trans                           &kp PG_UP &kp HOME &kp UP   &kp END   &trans  &kp F12
-                            &kp K_UNDO &kp K_REDO &kp K_CUT &kp K_COPY &kp K_PASTE &trans                           &kp PG_DN &kp LEFT &kp DOWN &kp RIGHT &kp DEL &studio_unlock
-                                                                       &kp LGUI    &trans &kp SPACE         &kp RET &trans    &kp RCTRL
+                            &trans     &kp F1     &kp F2    &kp F3      &kp F4   &kp F5                            &kp PG_UP &kp HOME   &kp UP      &kp END    &trans     &trans
+                            &trans     &kp F6     &kp F7    &kp F8      &kp F9   &kp F10                           &kp PG_DN &kp LEFT   &kp DOWN    &kp RIGHT  &kp DEL    &kp BSPC    
+                            &trans     &kp INS    &kp PSCRN &kp K_CMENU &kp F11  &kp F12                           &kp K_CUT &kp K_COPY &kp K_PASTE &kp K_UNDO &kp K_REDO &studio_unlock                     
+                                                                        &kp LGUI &trans  &kp SPACE         &kp RET &trans    &kp RCTRL
                         >;
                 };
 

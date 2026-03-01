@@ -45,7 +45,7 @@ include:
     shield: sofle_left nice_view_adapter nice_view
     snippet: studio-rpc-usb-uart zmk-usb-logging
     artifact-name: sofle_with_logging_LEFT
-    # sofle reset settings
+    # nice_nano reset settings
   - board: nice_nano//zmk
     shield: settings_reset
     artifact-name: nice_nano_reset_settings
@@ -58,6 +58,3 @@ include:
     shield: wingman
     snippet: studio-rpc-usb-uart zmk-usb-logging
     artifact-name: wingman-logging
-  - board: nice_nano//zmk
-    shield: settings_reset
-    artifact-name: nice_nano_reset_settings

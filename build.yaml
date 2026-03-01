@@ -60,3 +60,4 @@ include:
     artifact-name: wingman-logging
   - board: nice_nano//zmk
     shield: settings_reset
+    artifact-name: nice_nano_reset_settings
